@@ -211,6 +211,3 @@ for n_components in [4, 3, 2, 1]:
 pca_results = pd.DataFrame(pca_results, columns = ['Liczba komponentów', 'F1 train', 'F1 test'])
 print('\nPCA results:')
 print(pca_results)
-
-
-print('Dodanie PCA przyniosło pozytywny efekt. Zmniejszenie liczby cech z 4 do 3 poprawiło wynik na zbiorze testowym o ponad 2%. ')

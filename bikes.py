@@ -414,3 +414,5 @@ pca_results = pd.DataFrame(pca_results, columns = ['Liczba komponentów', 'R2', 
 
 print('\nPCA results:')
 print(pca_results)
+
+print('Dodanie PCA nie pomogło. Przy 4PC wyniki niemal identyczne, przy 3 i mniej nastapiło znaczne pogorszenie.')
